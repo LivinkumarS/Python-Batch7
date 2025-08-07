@@ -1,0 +1,31 @@
+Programing Language:
+--------------------
+It is a set of instructions and rules that a computer can understand.
+ex: C, C++, C#, Python, JavaScript, Java...
+
+Python:
+-------
+>>High-level, interpreted, general-purpose Programing Language.
+>>It is known for its simplicity and reliability.(easy syntax, open-source, huge cummunity support.)
+>>It is a Versatile Programming Language.
+>>Case-sensitive
+
+"Human written code" ---> 01 0110
+Extension for a python file---> .py
+
+Input/ Output operations.
+--------------------------
+When you want to show anything in output---> print()
+When you want to get an Input from user ---> input()
+
+Comments In Python 
+-------------------
+# ---> to create a single line comment
+''' ----> to create multiple lines comment
+
+Creating a variable
+----------------------
+>> should be unique
+>> should not start with numeric value
+>> cannot use space or spacial char otherthan "_"
+>> You cannot use any reserved keyword as a variable name
