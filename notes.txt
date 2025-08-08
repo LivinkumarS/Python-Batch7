@@ -16,7 +16,7 @@ Extension for a python file---> .py
 Input/ Output operations.
 --------------------------
 When you want to show anything in output---> print()
-When you want to get an Input from user ---> input()
+When you want to get an Input from user ---> input() ---> return only string.
 
 Comments In Python 
 -------------------
@@ -28,4 +28,27 @@ Creating a variable
 >> should be unique
 >> should not start with numeric value
 >> cannot use space or spacial char otherthan "_"
->> You cannot use any reserved keyword as a variable name
+>> You cannot use any reserved keyword as a variable name.
+
+
+Datatypes:
+-----------
+Integers--> -1,-2,0,1,2,3...(whole numbers)
+
+Float--> Decimal Numbers (13.24,-90.76,1.0)
+
+String--> Collection of characters. '',"" to create a string. conactination --> "+". Formatted String--> f''.
+
+Boolean---> True, False
+
+
+Type Checking
+------------
+type(val)---> returns datatype of that val.
+
+Type Casting 
+-------------
+int ---> str ---> str(100)--> '100'
+str ---> int ---> int('100')--> 100
+float --> int --> int(1.002)--> 1
+int --> float --> float(1)--> 1.0
