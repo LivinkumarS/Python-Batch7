@@ -52,3 +52,54 @@ int ---> str ---> str(100)--> '100'
 str ---> int ---> int('100')--> 100
 float --> int --> int(1.002)--> 1
 int --> float --> float(1)--> 1.0
+
+
+
+Operators:
+------------
+Operators are symbol used to perform an operation.
+
+Ex: 1+2. + --> operator. 1,2---> operends.
+
+Arithmetic Operators 
+----------------------
+Addition ---> + --> Ex:1+2--> 3. "str1" + "str2"(conactination).
+Subtraction ---> - 
+Mul --> *
+Div --> /
+Floor division --> // --> It will return Quotient. Ex: 10//3 --> 3
+Mod ---> % ---> Reminder. Ex: 50%3--> 2, 20%10 -->0. 10%20--> 10.
+Exponentiation --> ** --> base ** expo. 2 ** 3 --> 8.
+
+BODMAS-->Brackets, Order or Of, Div, Mul, Add, Sub
+
+Comparison Operators (will always return Bool value)
+---------------------------------------------------------
+== Equal to.
+!= not Equal to.
+> greater than
+< lesser than
+>= greater or equal to
+<= lesser or equal to
+
+Logical Operator  (Bool value)
+-----------------
+It operates with bool value and returns another bool.
+
+AND --> and --> If both are True --> True
+OR  --> or --> Any one is True --> True
+NOT --> not --> Operates with one bool value--> it will just revert it.
+
+
+Assignment operator 
+---------------------
+
+Assign value ---> =
+Add and Assign ---> +=
+Sub and Assign ---> -=
+Mul and Assign ---> *=
+Div and Assign ---> /=
+Mod and Assign ---> %=
+Exponentiate and Assign ---> **=
+
+Bitwise Operator
