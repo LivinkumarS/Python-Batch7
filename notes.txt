@@ -103,3 +103,39 @@ Mod and Assign ---> %=
 Exponentiate and Assign ---> **=
 
 Bitwise Operator
+------------------
+
+AND --> & --> It just perform and operation with each bits. Ex: 3 & 4 --> 0.
+OR --> | --> It just perform or operation with each bits. Ex: 7 | 2 --> 0.
+XOR --> ^ --> It just perform x-or operation with each bits. Ex: 7 ^ 2 --> 5.
+NOT ---> ~ --> Inverts all bits... Ex: ~2 --> -3. ~x=-(x+1).
+Left Shift --> num << count ---> shifts all bits to left and adds 0's on right.
+Right shift --> num >> count --> shifts all bits to right.
+
+
+Control flow
+-------------
+Control flow means deciding block of code should run depending on certein condition.
+
+if ---> Runs a vlock if a condition is True.
+else --> it comes only after if block. Runs if the first if  condition is False
+
+if condition:
+    block of code1.
+    block
+    block
+elif condition:
+    block
+elif condition:
+    block
+elif condition:
+    block
+elif condition:
+    block
+elif condition:
+    block
+elif condition:
+    block
+else:
+    block
+

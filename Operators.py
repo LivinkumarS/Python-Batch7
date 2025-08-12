@@ -53,12 +53,25 @@
 
 # a**=2
 
-a=10
-a+=-10
-a-=-10
-a**=2
-a/=100
+# a=10
+# a+=-10
+# a-=-10
+# a**=2
+# a/=100
 
 
+# # print(a)
 # print(a)
-print(a)
+
+
+# Bitwise Operator
+
+# a=7
+# b=2
+# print(a&b)
+# print(a|b)
+# print(a^b)
+# print(~-9)
+
+# print(5<<3)
+# print(5>>3)
