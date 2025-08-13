@@ -38,6 +38,7 @@ Integers--> -1,-2,0,1,2,3...(whole numbers)
 Float--> Decimal Numbers (13.24,-90.76,1.0)
 
 String--> Collection of characters. '',"" to create a string. conactination --> "+". Formatted String--> f''.
+It is an Iterable DataType. using Index number, we can access every single character. "Hello". a[ind]
 
 Boolean---> True, False
 
@@ -139,3 +140,36 @@ elif condition:
 else:
     block
 
+
+Loops:
+------
+>> It is used to repeat the block of code until the condition is met.
+
+while Loop:
+------------
+>> it keeps iterating the block of code as long as the given condition is True.
+>> The condition is checked before every iteration.
+
+syntax:
+--------
+while condition:
+    block of code
+
+For loop 
+----------
+>> Loops through iterable object.
+Ex: String.
+
+a="Hello" ---> a[1]
+
+syntax:
+-------
+for variable in iterable_object:
+    block of code.
+
+range(start, end, steps).
+
+Control statements:
+--------------------
+break ---> it will break the loop.
+continue ---> it will just make the loop skip the current iteration
