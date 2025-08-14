@@ -172,4 +172,37 @@ range(start, end, steps).
 Control statements:
 --------------------
 break ---> it will break the loop.
-continue ---> it will just make the loop skip the current iteration
+continue ---> it will just make the loop skip the current iteration.
+
+
+Indexing and Slicing
+------------------------
+iter[ind]---> value
+iter[start:end]---> iter[0:6] --> 0,1,2,3,4,5
+iter[ind:] --> ind,.....-1.
+iter[:ind]--> 0,1,2.....(ind)
+
+Data Structures
+---------------
+
+>> A way of organizing and storing data so it can be accessed and modified efficiently.
+
+
+List (Iteratable)
+-----
+>> Mutable and allows Duplicates.
+>> Store a collection of items that might need to change later.
+
+Sytax:
+-------
+[1,"",True,[1,2,3]]
+
+List Methods
+-------------
+.append(ele)--> adding element at the end.
+.pop() ---> remove the last element
+.insert(ind, ele) --> adding element at any place.
+.remove(ele) --> it will detete the first occurance of that element in the list.
+
+.sort() --> arranging in ascending order.
+.reverse() --> reversing the list
