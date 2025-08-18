@@ -205,4 +205,35 @@ List Methods
 .remove(ele) --> it will detete the first occurance of that element in the list.
 
 .sort() --> arranging in ascending order.
-.reverse() --> reversing the list
+.reverse() --> reversing the list.
+
+Functions
+----------
+>> A block of reusable code that performs a task.
+>> helps avoid repetition.
+
+Syntax:
+---------
+def functions_name():
+    #block of code
+
+calling:
+--------
+function_name()
+
+Some In-built Functions ---> print, input, type()...
+
+Parameters and Arguements
+-------------------------
+p ---> the variable we create while creating a function.
+a ---> value that we assign for the parameters while we calling that function.
+
+Return Keyword 
+--------------
+>> to break a function.
+>> This will return a value to the caller.
+
+Scopes
+------
+Local Scope--> defined inside a function, accesible only inside that function.
+Global Scope --> defined outside of function, accesible anywhere
