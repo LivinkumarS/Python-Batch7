@@ -37,8 +37,44 @@ Integers--> -1,-2,0,1,2,3...(whole numbers)
 
 Float--> Decimal Numbers (13.24,-90.76,1.0)
 
-String--> Collection of characters. '',"" to create a string. conactination --> "+". Formatted String--> f''.
-It is an Iterable DataType. using Index number, we can access every single character. "Hello". a[ind]
+String--> Collection of characters. '',"" to create a string. conactination --> "+". Formatted String--> f''.{var}
+It is an Iterable DataType. using Index number, we can access every single character. "Hello". a[ind]. Immutable
+
+String Slicing.
+---------------
+iter[ind]---> value
+iter[start:end]---> iter[0:6] --> 0,1,2,3,4,5
+iter[ind:] --> ind,.....-1.
+iter[:ind]--> 0,1,2.....(ind)
+
+String Inbuilt Functions 
+-------------------------
+str.strip() ---> removes space in begenning and ending.
+str.upper() ---> converts into uppercase.
+str.lower() ---> converts into lowercase.
+str.startswith('') ---> returns boolean value
+str.endswith('') ---> returns boolean value
+str.replace(old,new) --> replaces the old with new.
+
+searching
+---------
+str.find('str') --> finds the index. -1 --> not found.
+str.count('char') --> return the no of occurances.
+
+Splitting and Joining
+----------------------
+str.split(char) --> splits the string and store it in a list.
+
+String Formatting
+------------------
+str=f' {var1} {var2}'
+
+Escape sequences
+-----------------
+\n ---> breaks the line.
+\t ---> tab
+
+
 
 Boolean---> True, False
 
@@ -181,6 +217,10 @@ iter[ind]---> value
 iter[start:end]---> iter[0:6] --> 0,1,2,3,4,5
 iter[ind:] --> ind,.....-1.
 iter[:ind]--> 0,1,2.....(ind)
+
+Finding Length
+--------------
+len(str or list) ---> returns count of elements.
 
 Data Structures
 ---------------
