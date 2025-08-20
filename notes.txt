@@ -277,3 +277,16 @@ Scopes
 ------
 Local Scope--> defined inside a function, accesible only inside that function.
 Global Scope --> defined outside of function, accesible anywhere
+
+Exception handling:
+--------------------
+>> Exception is an error that distrupts the normal flow.
+
+try:
+   #block  of code 
+except nameOfError:
+   #block of code
+except nameOfError:
+   #block of code 
+finally:
+   #block of code
