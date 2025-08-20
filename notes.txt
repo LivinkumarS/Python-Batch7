@@ -290,3 +290,19 @@ except nameOfError:
    #block of code 
 finally:
    #block of code
+
+File Handling 
+-------------
+>> Manipulate files programatically(python).
+
+Open a file --> open('address', 'mode')
+Close a file ---> file.close()
+to Read a file ---> read()
+
+write or append a file ---> write("content")
+
+mode
+-----
+'r' ---> reading the file.
+'w' ---> over-write the file
+'a' ---> append mode
